@@ -103,7 +103,7 @@ The design of =clj-http= is inspired by the [[https://github.com/ring-clojure/ri
  server applications.
 
 The client in =clj-http.core= makes HTTP requests according to a given Ring
-request map and returns [[https://github.com/ring-clojure/ring/blob/master/SPEC][Ring response maps]] corresponding to the resulting HTTP
+request map and returns [[https://github.com/ring-clojure/ring/blob/master/SPEC.md][Ring response maps]] corresponding to the resulting HTTP
 response. The function =clj-http.client/request= uses Ring-style middleware to
 layer functionality over the core HTTP request/response implementation. Methods
 like =clj-http.client/get= are sugar over this =clj-http.client/request=
